@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="public/imgs/logo.png" />
+    <title>FUT Finder</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="public/imgs/logo.png" alt="JV Sports Logo" />
+        <h1>FC 25</h1>
+      </div>
+      <a href="https://github.com/joaonative" target="_blank"
+        ><u>Repositório</u></a
+      >
+    </header>
+    <main>
+      <div id="hero">
+        <div id="title">
+          <div>
+            <img src="public/imgs/logo.png" alt="JV Sports Logo" />
+            <h1>FC 25</h1>
+          </div>
+          <span><h1>FUT Finder</h1></span>
+        </div>
+        <h2>
+          Mergulhe na busca de jogadores de futebol, <br />
+          encontre todas as informações da performance de um jogador.
+        </h2>
+      </div>
+      <form id="search">
+        <input
+          id="search-input"
+          type="text"
+          placeholder="Insira o nome do atleta"
+          autocomplete="off"
+        />
+        <div>
+          <button id="search-btn" type="submit" disabled>Buscar Agora</button>
+          <button id="all-btn" type="button">Ver Todos</button>
+        </div>
+      </form>
+      <section id="results"></section>
+    </main>
+    <footer>
+      <img src="public/imgs/horizontal_logo.png" alt="JV Sports Logo" />
+      <p>2024 Todos os Direitos Reservados.</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
