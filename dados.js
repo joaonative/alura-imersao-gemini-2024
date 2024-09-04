@@ -4,7 +4,7 @@ const dados = [
     position: "ATA",
     name: "Mbappé",
     fullName: "Kylian Mbappé",
-    image: "public/imgs/players/mbappe.png",
+    image: "public/imgs/players/mbappe.webp",
     type: "gold",
     stats: {
       pace: 97,
@@ -20,7 +20,7 @@ const dados = [
     position: "SA",
     name: "Cruyff",
     fullName: "Johan Cruiff",
-    image: "public/imgs/players/cruyff.png",
+    image: "public/imgs/players/cruyff.webp",
     type: "icon",
     stats: {
       pace: 91,
@@ -36,7 +36,7 @@ const dados = [
     position: "MEI",
     name: "Zico",
     fullName: "Arthur Antunes Coimbra Zico",
-    image: "public/imgs/players/zico.png",
+    image: "public/imgs/players/zico.webp",
     type: "icon",
     stats: {
       pace: 89,
@@ -52,7 +52,7 @@ const dados = [
     position: "SA",
     name: "Kerr",
     fullName: "Sam Kerr",
-    image: "public/imgs/players/kerr.png",
+    image: "public/imgs/players/kerr.webp",
     type: "gold",
     stats: {
       pace: 85,
@@ -68,7 +68,7 @@ const dados = [
     position: "MC",
     name: "Aitana",
     fullName: "Aitana Bonmati",
-    image: "public/imgs/players/bonmati.png",
+    image: "public/imgs/players/bonmati.webp",
     type: "gold",
     stats: {
       pace: 81,
@@ -84,7 +84,7 @@ const dados = [
     position: "MC",
     name: "De Bruyne",
     fullName: "Kevin De Bruyne",
-    image: "public/imgs/players/debruyne.png",
+    image: "public/imgs/players/debruyne.webp",
     type: "gold",
     stats: {
       pace: 74,
@@ -100,7 +100,7 @@ const dados = [
     position: "ATA",
     name: "Ronaldo",
     fullName: "Cristiano Ronaldo",
-    image: "public/imgs/players/cristianoronaldo.png",
+    image: "public/imgs/players/cristianoronaldo.webp",
     type: "gold",
     stats: {
       pace: 78,
@@ -116,7 +116,7 @@ const dados = [
     position: "PE",
     name: "Neymar",
     fullName: "Neymar Júnior",
-    image: "public/imgs/players/neymar.png",
+    image: "public/imgs/players/neymar.webp",
     type: "gold",
     stats: {
       pace: 88,
@@ -132,7 +132,7 @@ const dados = [
     position: "MEI",
     name: "Messi",
     fullName: "Lionel Messi",
-    image: "public/imgs/players/messi.png",
+    image: "public/imgs/players/messi.webp",
     type: "gold",
     stats: {
       pace: 84,
@@ -148,7 +148,7 @@ const dados = [
     position: "MEI",
     name: "Dani Olmo",
     fullName: "Daniel Olmo Carvajal",
-    image: "public/imgs/players/daniolmo.png",
+    image: "public/imgs/players/daniolmo.webp",
     type: "gold",
     stats: {
       pace: 72,
@@ -164,7 +164,7 @@ const dados = [
     position: "ZAG",
     name: "Van Dijk",
     fullName: "Virgil van Dijk",
-    image: "public/imgs/players/vandijk.png",
+    image: "public/imgs/players/vandijk.webp",
     type: "gold",
     stats: {
       pace: 80,
@@ -180,7 +180,7 @@ const dados = [
     position: "ATA",
     name: "Haaland",
     fullName: "Erling Haaland",
-    image: "public/imgs/players/haaland.png",
+    image: "public/imgs/players/haaland.webp",
     type: "gold",
     stats: {
       pace: 89,
@@ -196,7 +196,7 @@ const dados = [
     position: "ZAG",
     name: "Ramos",
     fullName: "Sergio Ramos",
-    image: "public/imgs/players/ramos.png",
+    image: "public/imgs/players/ramos.webp",
     type: "gold",
     stats: {
       pace: 72,
@@ -212,7 +212,7 @@ const dados = [
     position: "LE",
     name: "Davies",
     fullName: "Alphonso Davies",
-    image: "public/imgs/players/davies.png",
+    image: "public/imgs/players/davies.webp",
     type: "gold",
     stats: {
       pace: 92,
@@ -228,7 +228,7 @@ const dados = [
     position: "MEI",
     name: "Modrić",
     fullName: "Luka Modrić",
-    image: "public/imgs/players/modric.png",
+    image: "public/imgs/players/modric.webp",
     type: "gold",
     stats: {
       pace: 70,
