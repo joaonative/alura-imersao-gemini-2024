@@ -6,6 +6,15 @@ const input = document.getElementById("search-input");
 const btn = document.getElementById("search-btn");
 const allBtn = document.getElementById("all-btn");
 const searchForm = document.getElementById("search");
+const sortBtn = document.getElementById("sort-btn");
+
+let isDescending = true;
+
+function sortData(data) {
+  return data.sort((a, b) => {
+    return isDescending ? b.rating - a.rating : a.rating - b.rating;
+  });
+}
 
 function buildCard(player) {
   const card = document.createElement("div");
@@ -14,6 +23,8 @@ function buildCard(player) {
     card.style.backgroundImage = "url('public/imgs/gold.webp')";
   } else if (player.type === "icon") {
     card.style.backgroundImage = "url('public/imgs/icon.webp')";
+  } else if (player.type === "hero") {
+    card.style.backgroundImage = "url('public/imgs/hero-card.webp')";
   }
   card.innerHTML = `
           <div class="player" style="background-image: url('${player.image}');">
@@ -59,7 +70,9 @@ function buildCard(player) {
 
 function loadAll() {
   resultSection.innerHTML = "";
-  dados.forEach((player) => {
+  const sortedData = sortData(dados);
+
+  sortedData.forEach((player) => {
     const card = buildCard(player);
     resultSection.appendChild(card);
   });
@@ -67,6 +80,12 @@ function loadAll() {
 
 function updateBtn() {
   btn.disabled = input.value.length < 3;
+}
+
+function toggleSortOrder() {
+  isDescending = !isDescending;
+  sortBtn.textContent = isDescending ? "Geral +" : "Geral -";
+  loadAll();
 }
 
 loadAll();
@@ -92,13 +111,15 @@ searchForm.addEventListener("submit", (e) => {
         .includes(input.value.toLowerCase())
     );
   });
-  if (filter.length === 0) {
+
+  const sortedFilter = sortData(filter);
+  if (sortedFilter.length === 0) {
     const noResults = document.createElement("div");
     noResults.id = "no-results";
     noResults.innerHTML = "<h1>Nenhum resultado encontrado.</h1>";
     resultSection.appendChild(noResults);
   } else {
-    filter.forEach((player) => {
+    sortedFilter.forEach((player) => {
       const card = buildCard(player);
       resultSection.appendChild(card);
     });
@@ -107,3 +128,5 @@ searchForm.addEventListener("submit", (e) => {
   input.value = "";
   updateBtn();
 });
+
+sortBtn.addEventListener("click", toggleSortOrder);
