@@ -17,8 +17,7 @@ O design da aplicação é totalmente inspirado na identidade visual da EA Sport
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **API do EA Sports FC 25** (dados sobre os jogadores)
-
+  
 ## Experiência do Usuário
 
 O design foi cuidadosamente planejado para ser o mais bonito e funcional possível, com base no layout do próprio jogo **EA Sports FC 25**. Busquei entregar uma experiência visualmente agradável e intuitiva.
