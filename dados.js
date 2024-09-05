@@ -6,6 +6,7 @@ const dados = [
     fullName: "Kylian Mbappé",
     image: "public/imgs/players/mbappe.webp",
     type: "gold",
+    url: "https://www.futbin.com/24/player/35/kylian-mbappe",
     stats: {
       pace: 97,
       shooting: 91,
@@ -22,6 +23,7 @@ const dados = [
     fullName: "Johan Cruiff",
     image: "public/imgs/players/cruyff.webp",
     type: "icon",
+    url: "https://www.futbin.com/24/player/18987/johan-cruyff",
     stats: {
       pace: 91,
       shooting: 93,
@@ -38,6 +40,7 @@ const dados = [
     fullName: "Arthur Antunes Coimbra Zico",
     image: "public/imgs/players/zico.webp",
     type: "icon",
+    url: "https://www.futbin.com/24/player/18984/antunes-coimbra",
     stats: {
       pace: 89,
       shooting: 92,
@@ -54,6 +57,7 @@ const dados = [
     fullName: "Sam Kerr",
     image: "public/imgs/players/kerr.webp",
     type: "gold",
+    url: "https://www.futbin.com/24/player/32/sam-kerr",
     stats: {
       pace: 85,
       shooting: 88,
@@ -70,6 +74,7 @@ const dados = [
     fullName: "Aitana Bonmati",
     image: "public/imgs/players/bonmati.webp",
     type: "gold",
+    url: "https://www.futbin.com/24/player/38/aitana-bonmati-conca",
     stats: {
       pace: 81,
       shooting: 84,
@@ -80,12 +85,13 @@ const dados = [
     },
   },
   {
-    rating: 90,
+    rating: 91,
     position: "MC",
     name: "De Bruyne",
     fullName: "Kevin De Bruyne",
     image: "public/imgs/players/debruyne.webp",
     type: "gold",
+    url: "https://www.futbin.com/24/player/37/kevin-de-bruyne",
     stats: {
       pace: 74,
       shooting: 86,
@@ -102,6 +108,7 @@ const dados = [
     fullName: "Cristiano Ronaldo",
     image: "public/imgs/players/cristianoronaldo.webp",
     type: "gold",
+    url: "https://www.futbin.com/24/player/23090/cristiano-ronaldo",
     stats: {
       pace: 78,
       shooting: 90,
@@ -118,6 +125,7 @@ const dados = [
     fullName: "Neymar Júnior",
     image: "public/imgs/players/neymar.webp",
     type: "gold",
+    url: "https://www.futbin.com/24/player/50/neymar-jr",
     stats: {
       pace: 88,
       shooting: 83,
@@ -134,6 +142,7 @@ const dados = [
     fullName: "Lionel Messi",
     image: "public/imgs/players/messi.webp",
     type: "gold",
+    url: "https://www.futbin.com/24/player/39/lionel-messi",
     stats: {
       pace: 84,
       shooting: 88,
@@ -150,6 +159,7 @@ const dados = [
     fullName: "Daniel Olmo Carvajal",
     image: "public/imgs/players/daniolmo.webp",
     type: "gold",
+    url: "https://www.futbin.com/24/player/29711/dani-olmo",
     stats: {
       pace: 72,
       shooting: 80,
@@ -166,6 +176,7 @@ const dados = [
     fullName: "Virgil van Dijk",
     image: "public/imgs/players/vandijk.webp",
     type: "gold",
+    url: "https://www.futbin.com/24/player/28/virgil-van-dijk",
     stats: {
       pace: 80,
       shooting: 50,
@@ -182,6 +193,7 @@ const dados = [
     fullName: "Erling Haaland",
     image: "public/imgs/players/haaland.webp",
     type: "gold",
+    url: "https://www.futbin.com/24/player/23/erling-haaland",
     stats: {
       pace: 89,
       shooting: 90,
@@ -192,12 +204,13 @@ const dados = [
     },
   },
   {
-    rating: 86,
+    rating: 87,
     position: "ZAG",
     name: "Ramos",
     fullName: "Sergio Ramos",
     image: "public/imgs/players/ramos.webp",
     type: "gold",
+    url: "https://www.futbin.com/24/player/23098/ramos-garcia",
     stats: {
       pace: 72,
       shooting: 55,
@@ -214,6 +227,7 @@ const dados = [
     fullName: "Alphonso Davies",
     image: "public/imgs/players/davies.webp",
     type: "gold",
+    url: "https://www.futbin.com/24/player/320/alphonso-davies",
     stats: {
       pace: 92,
       shooting: 70,
@@ -230,6 +244,7 @@ const dados = [
     fullName: "Luka Modrić",
     image: "public/imgs/players/modric.webp",
     type: "gold",
+    url: "https://www.futbin.com/24/player/226/luka-modric",
     stats: {
       pace: 70,
       shooting: 83,
@@ -240,12 +255,13 @@ const dados = [
     },
   },
   {
-    rating: 88,
+    rating: 91,
     position: "MC",
     name: "Putellas",
     fullName: "Alexia Putellas Segura",
     image: "public/imgs/players/putellas.webp",
     type: "gold",
+    url: "https://www.futbin.com/24/player/36/alexia-putellas-segura",
     stats: {
       pace: 78,
       shooting: 84,
@@ -256,12 +272,13 @@ const dados = [
     },
   },
   {
-    rating: 85,
+    rating: 87,
     position: "ZAG",
     name: "Marquinhos",
     fullName: "Marcos Aoás Corrêa",
     image: "public/imgs/players/marquinhos.webp",
     type: "gold",
+    url: "https://www.futbin.com/24/player/412/marquinhos",
     stats: {
       pace: 75,
       shooting: 55,
@@ -272,11 +289,12 @@ const dados = [
     },
   },
   {
-    rating: 86,
+    rating: 84,
     position: "LD",
     name: "Hakimi",
     fullName: "Achraf Hakimi",
     image: "public/imgs/players/hakimi.webp",
+    url: "https://www.futbin.com/24/player/411/achraf-hakimi",
     type: "gold",
     stats: {
       pace: 92,
@@ -288,12 +306,13 @@ const dados = [
     },
   },
   {
-    rating: 87,
+    rating: 88,
     position: "MEI",
-    name: "Brunos",
+    name: "Fernandes",
     fullName: "Bruno Miguel Borges Fernandes",
     image: "public/imgs/players/fernandes.webp",
     type: "gold",
+    url: "https://www.futbin.com/24/player/69/bruno-fernandes",
     stats: {
       pace: 75,
       shooting: 85,
@@ -304,12 +323,13 @@ const dados = [
     },
   },
   {
-    rating: 98,
+    rating: 99,
     position: "MEI",
     name: "Pelé",
     fullName: "Edson Arantes do Nascimento",
     image: "public/imgs/players/pele.webp",
     type: "icon",
+    url: "https://www.futbin.com/24/player/27812/pele",
     stats: {
       pace: 95,
       shooting: 96,
@@ -320,27 +340,12 @@ const dados = [
     },
   },
   {
-    rating: 97,
-    position: "MEI",
-    name: "Maradona",
-    fullName: "Diego Armando Maradona",
-    image: "public/imgs/players/maradona.webp",
-    type: "icon",
-    stats: {
-      pace: 92,
-      shooting: 95,
-      passing: 91,
-      dribbling: 97,
-      defense: 40,
-      physical: 75,
-    },
-  },
-  {
     rating: 94,
     position: "ATA",
     name: "Ronaldo",
     fullName: "Ronaldo Luís Nazário de Lima",
     image: "public/imgs/players/ronaldo.webp",
+    url: "https://www.futbin.com/24/player/18980/ronaldo",
     type: "icon",
     stats: {
       pace: 94,
@@ -358,6 +363,7 @@ const dados = [
     fullName: "Paolo Maldini",
     image: "public/imgs/players/maldini.webp",
     type: "icon",
+    url: "https://www.futbin.com/24/player/20439/paolo-maldini",
     stats: {
       pace: 86,
       shooting: 50,
@@ -368,11 +374,12 @@ const dados = [
     },
   },
   {
-    rating: 93,
+    rating: 94,
     position: "MEI",
     name: "Zidane",
     fullName: "Zinedine Zidane",
     image: "public/imgs/players/zidane.webp",
+    url: "https://www.futbin.com/24/player/18913/zinedine-zidane",
     type: "icon",
     stats: {
       pace: 85,
@@ -390,6 +397,7 @@ const dados = [
     fullName: "Eden Hazard",
     image: "public/imgs/players/hazard.webp",
     type: "hero",
+    url: "https://www.futbin.com/25/player/10/eden-hazard",
     stats: {
       pace: 86,
       shooting: 85,
@@ -406,6 +414,7 @@ const dados = [
     fullName: "Diego Forlán",
     image: "public/imgs/players/forlan.webp",
     type: "hero",
+    url: "https://www.futbin.com/24/player/20110/diego-forlan",
     stats: {
       pace: 85,
       shooting: 91,
@@ -416,12 +425,13 @@ const dados = [
     },
   },
   {
-    rating: 88,
+    rating: 89,
     position: "ZAG",
     name: "Lúcio",
     fullName: "Lucimar Ferreira da Silva",
     image: "public/imgs/players/lucio.webp",
     type: "hero",
+    url: "https://www.futbin.com/24/player/19067/lucimar-da-silva-ferreira",
     stats: {
       pace: 82,
       shooting: 55,
@@ -438,6 +448,7 @@ const dados = [
     fullName: "Dirk Kuyt",
     image: "public/imgs/players/kuyt.webp",
     type: "hero",
+    url: "https://www.futbin.com/24/player/20106/dirk-kuyt",
     stats: {
       pace: 80,
       shooting: 84,

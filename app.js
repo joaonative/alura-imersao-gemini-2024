@@ -17,7 +17,9 @@ function sortData(data) {
 }
 
 function buildCard(player) {
-  const card = document.createElement("div");
+  const card = document.createElement("a");
+  card.href = player.url;
+  card.target = "_blank";
   card.className = "card";
   if (player.type === "gold") {
     card.style.backgroundImage = "url('public/imgs/gold.webp')";
