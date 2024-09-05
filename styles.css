@@ -154,6 +154,7 @@ a {
   justify-content: center;
   padding-bottom: 64px;
   background-size: contain;
+  background-repeat: no-repeat;
   color: #161616;
   font-family: "CruyffSans-Medium";
   transition: transform 0.1s ease-in-out;
