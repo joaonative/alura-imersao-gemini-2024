@@ -52,10 +52,10 @@ Busquei inspirações em diversos sites. O site **Futbin** ([https://www.futbin.
 ### Exibição de Cartas
 
 Para exibir cada carta na tela, utilizei um container principal com o fundo correspondente ao tipo da carta (ouro, ícone, herói).  
-![Cartas](https://ibb.co/FzNC9vP "cartas")
+![Cartas](https://i.postimg.cc/Ghzw8hCp/Screenshot-2024-09-06-140424.png "cartas")
 
 Sobre esse container, coloquei outro com a imagem de fundo do jogador:  
-![Atletas](https://assets.digitalocean.com/articles/alligator/boo.svg "atletas")
+![Atletas](https://i.postimg.cc/kg4rx3Jv/Screenshot-2024-09-06-140706.png "atletas")
 
 Cada jogador possui uma imagem PNG (transparente) que eu mesmo recortei e importei para o projeto.
 
