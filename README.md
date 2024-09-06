@@ -52,17 +52,17 @@ Busquei inspirações em diversos sites. O site **Futbin** ([https://www.futbin.
 ### Exibição de Cartas
 
 Para exibir cada carta na tela, utilizei um container principal com o fundo correspondente ao tipo da carta (ouro, ícone, herói).  
-![Cartas](https://i.postimg.cc/Ghzw8hCp/Screenshot-2024-09-06-140424.png "cartas")
+![Cartas](https://i.postimg.cc/PqwR4dBY/cards.png "cartas")
 
 Sobre esse container, coloquei outro com a imagem de fundo do jogador:  
-![Atletas](https://i.postimg.cc/kg4rx3Jv/Screenshot-2024-09-06-140706.png "atletas")
+![Atletas](https://i.postimg.cc/Ghzw8hCp/Screenshot-2024-09-06-140424.png "atletas")
 
 Cada jogador possui uma imagem PNG (transparente) que eu mesmo recortei e importei para o projeto.
 
 ### Busca
 
 Na aba de busca, o usuário pode digitar qualquer parte do nome completo do jogador. O código JavaScript detecta um evento no formulário e, ao ser submetido, filtra a lista de dados, retornando os resultados que correspondem ao termo pesquisado. Ao clicar no botão "Ver Todos", o JavaScript recarrega a lista completa, exibindo todos os jogadores. Já os botões "Geral +" e "Geral -" adicionam uma condição de ordenação antes da busca, organizando os jogadores por ordem crescente ou decrescente de rating.
-![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
+![Formulário](https://i.postimg.cc/kg4rx3Jv/Screenshot-2024-09-06-140706.png "formulário de busca")
 
 ---
 
