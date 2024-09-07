@@ -1,8 +1,4 @@
 # FUT Finder - Ultimate Team Card Search
-
-## Vote em
-https://discord.com/channels/1277631721822748742/1277631722716008535/1281246641445408860
-
 ## Descrição
 
 **FUT Finder** é um projeto direcionado aos fãs de futebol e inspirado no jogo **EA Sports FC 25**. A aplicação permite que os usuários pesquisem e visualizem diferentes cartas de jogadores do modo **Ultimate Team**, proporcionando uma experiência interativa e imersiva.
