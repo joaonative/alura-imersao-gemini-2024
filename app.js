@@ -110,7 +110,12 @@ searchForm.addEventListener("submit", (e) => {
         .normalize("NFD")
         .replace(/[^a-zA-Z\s]/g, "")
         .toLocaleLowerCase()
-        .includes(input.value.toLowerCase())
+        .includes(
+          input.value
+            .normalize("NFD")
+            .replace(/[^a-zA-Z\s]/g, "")
+            .toLowerCase()
+        )
     );
   });
 
