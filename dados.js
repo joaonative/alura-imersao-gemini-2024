@@ -343,7 +343,7 @@ const dados = [
     rating: 98,
     position: "PD",
     name: "Garrincha",
-    fullName: "Edson Arantes do Nascimento Pelé",
+    fullName: "Manoel Francisco dos Santos Mané Garrincha",
     image: "public/imgs/players/garrincha.png",
     type: "icon",
     url: "https://www.futbin.com/24/player/27280/mane-garrincha",
